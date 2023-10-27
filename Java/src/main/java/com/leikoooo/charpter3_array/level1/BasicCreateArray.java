@@ -9,10 +9,10 @@ package com.leikoooo.charpter3_array.level1;
 
 public class BasicCreateArray {
     public static void main(String[] args) {
-        //第一种创建和初始化的方法
+        // 第一种创建和初始化的方法
         int[] arr = new int[10];
         for (int i = 0; i < 4; i++) {
-            arr[i] = i+3;
+            arr[i] = i + 3;
         }
         System.out.println("arr1 size:" + arr.length);
 
